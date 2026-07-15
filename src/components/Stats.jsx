@@ -19,7 +19,6 @@ const Stats = () => {
           lobortis vitae quis vehicula pellentesque sit id
         </p>
 
-        {/* Stats bar */}
         <div className="mt-10 inline-flex bg-[#efefec] rounded-md overflow-hidden">
           {stats.map((stat, i) => (
             <div
@@ -35,7 +34,6 @@ const Stats = () => {
         </div>
       </div>
 
-      {/* Image placeholder */}
       <div className="max-w-3xl mx-auto mt-10">
         <div className="relative bg-[#d9d9d9] aspect-video w-full">
           <svg

@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/logo.svg'
 
 const Navbar = () => {
   const links = ['Link 1', 'Link 2', 'Link 3', 'Link 4', 'Link 5']
@@ -6,12 +7,10 @@ const Navbar = () => {
   return (
     <div className="w-full bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-8 py-4">
-        {/* Logo */}
-        <div className="w-11 h-11 rounded-full bg-black flex items-center justify-center shrink-0">
-         <img src='/logo.svg'/>
+        <div className="w-11 h-11 rounded-full bg-black flex items-center justify-center shrink-0 overflow-hidden">
+         <img src={logo} alt="Logo" className="w-full h-full object-contain" />
         </div>
 
-        {/* Links + Button */}
         <div className="flex items-center gap-9">
           {links.map((link) => (
             <a

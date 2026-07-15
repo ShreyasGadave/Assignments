@@ -3,7 +3,6 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className="w-full flex flex-col md:flex-row">
-      {/* Left content panel */}
       <div className="w-full md:w-1/2 bg-[#f3f3f3] flex items-center px-10 py-24 md:py-32">
         <div className="max-w-md">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
@@ -18,7 +17,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right image placeholder */}
       <div className="w-full md:w-1/2 relative bg-[#c9c9c9] aspect-square md:aspect-auto">
         <svg
           className="absolute inset-0 w-full h-full"
