@@ -1,26 +1,30 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Tittle from "./components/Tittle";
-import Trust from "./components/Trust";
-import Stats from "./components/Stats";
-import Partners from "./components/Partners";
-import Blog from "./components/Blog";
-import Testimonials from "./components/Testimonials";
-import Footer from "./components/Footer";
+import Navbar from "../src/components/Navbar";
+import Hero from "./components/Hero";
+import BrandLogos from "./components/Brand";
+import DealOfTheMonth from "./components/DealOfTheMonth";
+import NewArrivals from "./components/NewArrivial";
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-      <Navbar />
-      <Tittle />
-      <Trust />
-      <Stats />
-      <Partners />
-      <Blog />
-      <Testimonials />
-      <Footer />
+    <div className=" relative mx-auto">
+      <div className="sticky top-0 z-50 e shadow-sm">
+        <Navbar />
+      </div>
+      <section className="max-w-6xl mx-auto">
+        <section className=" w-full">
+          <Hero />
+          <BrandLogos />
+        </section>
+
+        <DealOfTheMonth/>
+        <NewArrivals />
+        {/* <ProductFeature /> */}
+        {/* <Features /> */}
+        {/* <Gallery /> */}
+        {/* <Testimonials /> */}
+        {/* <Subscribe /> */}
+        {/* <Footer /> */}
+      </section>
     </div>
   );
-};
-
-export default App;
+}
