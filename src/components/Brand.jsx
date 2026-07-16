@@ -8,7 +8,7 @@ function BrandLogos() {
   const logos = [imgLogo2, imgLogo3, imgLogo1, imgLogo4];
 
   return (
-    <section className="max-w-5xl mx-auto bg-white shadow-[0px_20px_52px_0px_rgba(68,68,68,0.04)] py-10">
+    <section className="max-w-5xl px-5 mx-auto bg-white shadow-[0px_20px_52px_0px_rgba(68,68,68,0.04)] py-10">
       <div className="max-w-7xl mx-auto flex items-center justify-center gap-12 md:gap-20">
         {logos.map((logo, i) => (
           <div key={i} className="flex items-center justify-center">
