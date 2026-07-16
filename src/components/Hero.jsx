@@ -5,7 +5,7 @@ import imgImage18 from "../assets/Homepage/4.png";
 
 function Hero() {
   return (
-    <section className="max-w-6xl overflow-hidden relative flex items-stretch gap-1 min-h-screen px-4 py-4">
+    <section className="max-w-5xl mx-auto overflow-hidden relative flex items-stretch gap-1 min-h-screen px-4 py-4">
       {/* Left model */}
       <div className="hidden lg:block relative w-[30%] shrink-0">
         <div className="absolute inset-0 rounded-[10px] overflow-hidden bg-[#e0e0e0]">

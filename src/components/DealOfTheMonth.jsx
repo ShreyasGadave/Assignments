@@ -19,7 +19,7 @@ function DealOfTheMonth() {
   const slides = [imgImage13, imgImage14, imgImage15];
 
   return (
-    <section className="w-full bg-gradient-to-b from-white to-[#fafafa] py-16 px-6 md:px-16">
+    <section className="w-full bg-gradient-to-b from-white to-[#fafafa] py-16 px-6 md:px-16 shadow-xl">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
         {/* Left: text + timer */}
         <div className="flex-1 min-w-0">

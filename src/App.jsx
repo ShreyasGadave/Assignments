@@ -3,6 +3,12 @@ import Hero from "./components/Hero";
 import BrandLogos from "./components/Brand";
 import DealOfTheMonth from "./components/DealOfTheMonth";
 import NewArrivals from "./components/NewArrivial";
+import ProductFeature from "./components/ProductFeatured";
+import Features from "./components/Features";
+import Gallery from "./components/Gallery";
+import Testimonials from "./components/Testmonial";
+import Subscribe from "./components/Subscribe";
+import Footer from "./components/Fotter";
 
 export default function App() {
   return (
@@ -10,7 +16,7 @@ export default function App() {
       <div className="sticky top-0 z-50 e shadow-sm">
         <Navbar />
       </div>
-      <section className="max-w-6xl mx-auto">
+      <section className=" mx-auto">
         <section className=" w-full">
           <Hero />
           <BrandLogos />
@@ -19,11 +25,11 @@ export default function App() {
         <DealOfTheMonth/>
         <NewArrivals />
         {/* <ProductFeature /> */}
-        {/* <Features /> */}
-        {/* <Gallery /> */}
-        {/* <Testimonials /> */}
-        {/* <Subscribe /> */}
-        {/* <Footer /> */}
+        <Features/>
+        <Gallery />
+        <Testimonials />
+        <Subscribe />
+        <Footer/>
       </section>
     </div>
   );
